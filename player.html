@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta charset="UTF-8">
+	<title>Album</title>
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	<script src="https://use.fontawesome.com/c5338e1eee.js"></script>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header>
+			<h1>Player</h1>
+		</header>
+
+		<main class="player">
+            <div class="photo">
+                <img src="images/1-650.jpg" alt="cover"
+                sizes="(min-width: 29em) 50vw, 100vw"
+                srcset="images/1-650.jpg 650w, images/1-750.jpg 750w, images/1-850.jpg 850w,
+                images/1-950.jpg 950w">
+            </div>
+            <div class="startTime">1:25</div>
+            <div class="time"><input type="range" name="volume" min="0" max="100" value="30"></div>
+            <div class="endTime">-2:14</div>
+            
+            <div class="title">
+                <span>Howling at the Moon</span>
+                <span>Wolf Pack Seven</span>
+            </div>
+            
+            <div class="previous"><span class="fa fa-angle-double-left"></span></div>
+            <div class="play"><span class="fa fa-play"></span></div>
+            <div class="next"><span class="fa fa-angle-double-right"></span></div>
+            
+            <div class="voldn"><span class="fa fa-volume-down"></span></div>
+            <div class="volume"><span><input type="range" name="volume" min="0" max="100"></span></div>
+            <div class="volup"><span class="fa fa-volume-up"></span></div>
+		</main>
+
+		<nav>
+			<div><a href="index.html"></a><span class="fa fa-music aria-hidden=" true></span></div>
+			<div><a href="artist.html"></a><span class="fa fa-user aria-hidden=" true></span></div>
+			<div class="active"><a href="song.html"></a><span class="fa fa-list aria-hidden=" true></span></div>
+			<div><a href="search.html"></a><span class="fa fa-search aria-hidden=" true></span></div>
+		</nav>
+		<footer>
+
+		</footer>
+	</div>
+</body>
+
+</html>
